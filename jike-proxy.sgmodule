@@ -1,0 +1,10 @@
+#!name=JikeProxy
+#!desc=代理即刻请求
+
+[Proxy]
+即刻代理 = http, 152.136.101.38, 8000
+
+[Rule]
+DOMAIN,api.ruguoapp.con,即刻代理
+IP-CIDR,47.99.112.78/32,即刻代理
+IP-CIDR,47.242.14.200/32,即刻代理
